@@ -5,14 +5,14 @@ Description: Store UCSC RepeatMasker AnnotationHub resource metadata.
         Provide provenance and citation information for UCSC RepeatMasker
         AnnotationHub resources. Illustrate in a vignette how to access
         those resources.
-Version: 3.17.3
+Version: 3.22.0
 Encoding: UTF-8
 Authors@R: c(person("Robert", "Castelo", role=c("aut", "cre"),
         email="robert.castelo@upf.edu"), person("Beatriz", "Calvo",
         role="ctb", email="beatriz.calvo@upf.edu"))
 License: Artistic-2.0
 VignetteBuilder: knitr
-Depends: AnnotationHub, GenomeInfoDb
+Depends: GenomicRanges, AnnotationHub, GenomeInfoDb
 Imports: XML, RCurl
 Suggests: knitr, rmarkdown, BiocStyle
 biocViews: AnnotationHub, AnnotationData
